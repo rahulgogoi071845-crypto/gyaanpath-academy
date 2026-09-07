@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GyanPath Academy | Rahul Gogoi</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#f6f8fc;color:#172033;line-height:1.5}
+a{text-decoration:none;color:inherit}
+header{background:#fff;border-bottom:1px solid #e8ebf2;position:sticky;top:0;z-index:10}
+.nav{max-width:1100px;margin:auto;padding:15px 22px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:23px;font-weight:800;color:#173b8f}.logo span{color:#f39a2f}
+nav a{margin-left:22px;font-weight:600;color:#44506a;font-size:14px}
+.hero{background:linear-gradient(135deg,#173b8f,#2859c7);color:white}
+.hero-inner{max-width:1100px;margin:auto;padding:72px 22px;display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}
+.badge{display:inline-block;background:rgba(255,255,255,.14);padding:8px 13px;border-radius:30px;font-size:13px;margin-bottom:17px}
+h1{font-size:48px;line-height:1.1;margin-bottom:18px}.hero p{font-size:18px;opacity:.9;max-width:650px}
+.buttons{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:12px 19px;border-radius:10px;font-weight:700;display:inline-block}
+.primary{background:#f39a2f;color:#fff}.light{background:#fff;color:#173b8f}
+.hero-card{background:white;color:#172033;border-radius:20px;padding:25px;box-shadow:0 18px 45px rgba(0,0,0,.18)}
+.hero-card h3{margin-bottom:15px}.stat{display:flex;justify-content:space-between;padding:13px 0;border-bottom:1px solid #eee}.stat:last-child{border:0}
+section{max-width:1100px;margin:auto;padding:58px 22px}
+.title{text-align:center;margin-bottom:30px}.title h2{font-size:30px}.title p{color:#6b7280;margin-top:7px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}
+.card{background:#fff;border:1px solid #e8ebf2;border-radius:16px;padding:22px;transition:.2s}.card:hover{transform:translateY(-3px);box-shadow:0 10px 25px rgba(22,35,70,.08)}
+.icon{font-size:30px;margin-bottom:12px}.card h3{margin-bottom:7px}.card p{color:#6b7280;font-size:14px}
+.youtube{background:#fff0f0}.ytbox{max-width:760px;margin:auto;text-align:center;padding:32px;border-radius:18px;background:#fff;border:1px solid #f0d6d6}
+.schedule{width:100%;border-collapse:collapse;background:#fff;border-radius:15px;overflow:hidden}.schedule th,.schedule td{padding:15px;text-align:left;border-bottom:1px solid #edf0f5}.schedule th{background:#173b8f;color:white}.tag{padding:5px 9px;border-radius:20px;background:#eef3ff;color:#2859c7;font-size:12px;font-weight:700}
+.cta{background:#173b8f;color:#fff;border-radius:22px;text-align:center;padding:45px 20px}.cta p{opacity:.85;margin:8px 0 22px}
+footer{background:#101827;color:#cbd5e1;padding:30px 22px;text-align:center;font-size:14px}
+@media(max-width:800px){.hero-inner{grid-template-columns:1fr;padding:55px 20px}h1{font-size:38px}.grid{grid-template-columns:repeat(2,1fr)}nav{display:none}}
+@media(max-width:500px){.grid{grid-template-columns:1fr}.nav{padding:13px 16px}.hero-inner{padding:45px 17px}section{padding:45px 17px}h1{font-size:34px}.schedule{font-size:13px}}
+</style>
+</head>
+<body>
+<header>
+<div class="nav">
+<div class="logo">GyanPath <span>Academy</span><small style="display:block;font-size:10px;color:#6b7280;font-weight:600">by Rahul Gogoi</small></div>
+<nav><a href="#home">Home</a><a href="#notes">Notes</a><a href="#classes">Classes</a><a href="#test-demo">Tests</a><a href="#routine">Routine</a></nav>
+</div>
+</header>
+
+<div class="hero" id="home">
+<div class="hero-inner">
+<div>
+<div class="badge">📚 Powered by Assam GyanPath • Rahul Gogoi</div>
+<h1>Learn Better.<br>Practice More.<br>Achieve More.</h1>
+<p>Notes, online tuition classes, question practice and study resources — all in one place for students.</p>
+<div class="buttons">
+<a class="btn primary" href="#notes">Explore Notes</a>
+<a class="btn light" href="#classes">Join Classes</a>
+</div>
+</div>
+<div class="hero-card">
+<h3>🎯 Your Study Hub</h3>
+<div class="stat"><span>📄 Study Notes</span><b>Available</b></div>
+<div class="stat"><span>🎥 Online Classes</span><b>Live + Recorded</b></div>
+<div class="stat"><span>📝 Practice Tests</span><b>Coming Soon</b></div>
+<div class="stat"><span>🏆 Student Progress</span><b>Coming Soon</b></div>
+</div>
+</div>
+</div>
+
+<section id="notes">
+<div class="title"><h2>Everything You Need to Study</h2><p>Simple resources designed for focused learning.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">📚</div><h3>Notes</h3><p>Chapter-wise notes and PDF study materials.</p></div>
+<div class="card" id="classes"><div class="icon">🎥</div><h3>Online Classes</h3><p>Live and recorded classes connected with Assam GyanPath.</p></div>
+<div class="card" id="tests"><div class="icon">📝</div><h3>Question Practice</h3><p>MCQs, chapter tests and mock exams for practice.</p></div>
+<div class="card"><div class="icon">🏆</div><h3>Progress</h3><p>Track scores, test history and improvement.</p></div>
+</div>
+</section>
+
+<section id="routine">
+<div class="title"><h2>Class Routine</h2><p>Upcoming study sessions</p></div>
+<table class="schedule">
+<tr><th>Day</th><th>Class</th><th>Subject</th><th>Time</th></tr>
+<tr><td>Monday</td><td>Class 10</td><td>Mathematics</td><td><span class="tag">7:00 PM</span></td></tr>
+<tr><td>Tuesday</td><td>Class 10</td><td>Science</td><td><span class="tag">7:00 PM</span></td></tr>
+<tr><td>Wednesday</td><td>Class 10</td><td>Social Science</td><td><span class="tag">7:00 PM</span></td></tr>
+</table>
+</section>
+
+<section>
+<div class="cta">
+<h2>Study with GyanPath Academy</h2><p style="font-weight:700;opacity:.95">Founded &amp; taught by Rahul Gogoi</p>
+<p>Watch on YouTube. Learn from notes. Practice with tests.</p>
+<a class="btn light" href="https://www.youtube.com/" target="_blank">Visit Assam GyanPath on YouTube</a>
+</div>
+</section>
+
+<footer>
+<strong>GyanPath Academy • Rahul Gogoi</strong><br>
+<span>Powered by Assam GyanPath • Rahul Gogoi • Learn • Practice • Achieve</span>
+</footer>
+
+<section id="test-demo">
+<div class="title"><h2>📝 Online Test Demo</h2><p>Try a quick practice test — result appears instantly.</p></div>
+<div class="card" style="max-width:760px;margin:auto">
+<div id="quiz"></div>
+<button class="btn primary" id="submitQuiz" style="border:0;cursor:pointer;margin-top:15px">Submit Test</button>
+<div id="result" style="margin-top:18px;font-weight:700"></div>
+</div>
+</section>
+<script>
+const questions=[
+ {q:"Which subject is known as the study of numbers?",o:["Mathematics","History","Geography","English"],a:0},
+ {q:"Which is the best way to improve after a test?",o:["Ignore mistakes","Review mistakes","Stop practicing","Skip notes"],a:1},
+ {q:"GyanPath Academy is connected with which YouTube channel?",o:["Assam GyanPath","Study India","Gyan World","None"],a:0}
+];
+const quiz=document.getElementById("quiz");
+questions.forEach((x,i)=>{
+ let d=document.createElement("div"); d.style.marginBottom="22px";
+ d.innerHTML="<b>"+(i+1)+". "+x.q+"</b><div style='margin-top:9px'>"+
+ x.o.map((v,j)=>`<label style="display:block;margin:7px 0;color:#44506a"><input type="radio" name="q${i}" value="${j}"> ${v}</label>`).join("")+"</div>";
+ quiz.appendChild(d);
+});
+document.getElementById("submitQuiz").onclick=()=>{
+ let score=0;
+ questions.forEach((x,i)=>{let c=document.querySelector(`input[name=q${i}]:checked`);if(c&&+c.value===x.a)score++});
+ document.getElementById("result").textContent=`Your Score: ${score}/${questions.length} 🎉`;
+};
+document.querySelectorAll("nav a").forEach(a=>{a.addEventListener("click",e=>{})});
+</script>
+</body>
+</html>
